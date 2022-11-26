@@ -1,0 +1,110 @@
+@keyframes blinker{
+from
+{
+	opacity:100%;
+}
+to
+{
+	opacity:0%;
+}
+}
+#name,#name1
+{
+	animation-name:blinker;
+	animation-duration:.4s;
+	animation-iteration-count:1000;
+	text-shadow:2px 2px 5px black;
+	text-shadow:2px 2px 10px black;
+}
+#div1
+{
+	font-family:valorant;
+	font-size:40px;
+	background-color:skyblue;
+	width:725px;
+	height:550px;
+	display:inline-block;
+}
+#div2
+{
+	font-family:valorant;
+	font-size:40px;
+	background-color:skyblue;
+	width:725px;
+	height:545px;
+	display:inline-block;
+}
+body
+{
+background-size:cover;
+background-attachment:fixed;
+}
+ul
+{
+display:flex;
+}
+li
+{
+color:white;
+font-family:Valorant;
+font-size:30px;
+margin-left:2%;
+}
+#n
+{
+float:center;
+background-color:skyblue;
+max-height:160px;
+position:sticky;
+text-shadow:2px 2px 10px black;
+text-indent:150px;
+}
+ul,#n,body
+{
+margin:10px;
+padding:0;
+}
+ul li
+{
+list-style-type:none;
+padding:10px;
+}
+ul li:hover
+{
+background-color:skyblue;
+}
+img
+{
+float:center;
+width:200px;
+height:100px;
+margin-top:0.3%;
+margin-left:0.6%;
+}
+a{text-decoration:none}
+ol,li
+{
+	
+	margin:30px;
+	text-align:center;
+	padding-top:18px;
+	text-decoration:none;
+}
+body
+{
+	background-attachment:fixed;
+	background-size:cover;
+	
+}
+h1
+{
+	font-family:game of thrones;
+	font-size:50px;
+}
+#vdo
+{
+	margin-left:45%;
+	margin-top:5%;	
+}
+
+

@@ -1,0 +1,73 @@
+<html>
+<head>
+<title> POPUP BOXES </title>
+</head>
+<body>
+<table width=100%, height="150px", border="1">
+<tr>
+<td>
+<p align="center"><button onclick="alrt()">
+ALERT BOX </button>
+<script>
+function alrt()
+{
+alert("THIS IS AN ALERT BOX");
+}
+</script>
+</td>
+<td>
+<p align="center"><button onclick="mainfn()">
+PROMPT</button></p>
+<script>
+function mainfn()
+{
+var x=prompt("WHAT THE TYPE OF POPUP BOX IS THIS?");
+if(x=="prompt")
+{
+alert("CORRECT");
+}
+else if(x==="")
+{
+return;
+}
+else 
+{
+alert("WRONG");
+var y=confirm("TRY AGAIN");
+}
+if(y===true)
+{
+mainfn();
+}
+else
+{
+return;
+}
+}
+</script>
+</td>
+<td>
+<p align="center">
+<button onclick="done()">
+CONFIRM
+</button>
+</p>
+<script>
+function done()
+{
+var n=confirm("ENJOYED THIS EXAMPLE?");
+if (n===true)
+{
+alert("THANKS!");
+}
+else
+{
+alert("FEEL FREE TO MAKE ANY SUGGESTIONS!");
+}
+}
+</script>
+</td>
+</tr>
+</table>
+</body>
+</html>

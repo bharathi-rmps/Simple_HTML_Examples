@@ -1,0 +1,77 @@
+<html>
+<head>
+	<style>@keyframes slide1{						
+							from{
+							transform:rotate(0deg);
+							margin-left:100%;
+							background-color:red;
+							margin-top:1000px;
+							}
+							to{
+							margin-right:100%;
+							transform:rotate(360deg);
+							background-color:pink;
+							margin-bottom:200px;
+							}
+							}
+			@keyframes slide2{						
+							from{
+							transform:rotate(0deg);
+							margin-left:0%;
+							background-color:red;
+							margin-top:1000px;
+							}
+							to{
+							margin-left:20%;
+							transform:rotate(360deg);
+							background-color:pink;
+							margin-bottom:200px;
+							}
+							}				
+	    body
+		{background-size:cover;background-attachment:fixed;}
+		div
+				{
+				transform::rotate(25deg);
+				margin:0 auto;
+				font-size:80px;
+				width:800px;
+				height:800px;
+				background-color:pink;
+				border:20px solid yellow;
+				text-align:center;			
+				}
+		h1{margin-top:30%;}
+		#yash {
+				margin-top:10%;
+				margin-left:2000px;
+				text-align:center;	
+				animation-name:slide1;
+				animation-duration:3s;
+				animation-iteration-count:5;			
+			   }
+		#first {
+				margin-top:200px;
+				margin-left:2000px;
+				text-align:center;
+				animation-name:slide2;
+				animation-duration:5s;
+				animation-iteration-count:5;
+			   }
+		#second{
+				margin-bottom:10%;2
+				margin-top:200px;
+				margin-left:2000px;
+				text-align:center;	
+				animation-name:slide1;
+				animation-duration:8s;
+				animation-iteration-count:5;				
+			   }		
+	</style>
+</head>
+<body background="20210202_195014.jpg">
+		<div id="yash"><h1>HELLO</h1></div>
+		<div id="first"><h1>VALIMAI UPDATE..</h1></div>
+		<div id="second"><h1>Vaaipulla rajaaa!</h1></div>
+</body>
+</html>
